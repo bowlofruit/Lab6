@@ -1,0 +1,21 @@
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.csproj.AssemblyReference.cache
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\App.g.cs
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test_MarkupCompile.cache
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\bin\Debug\MVVM Test.exe.config
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\bin\Debug\MVVM Test.exe
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\bin\Debug\MVVM Test.pdb
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MainWindow.g.cs
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test_MarkupCompile.lref
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MainWindow.baml
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.g.resources
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM_Test.Properties.Resources.resources
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.csproj.GenerateResource.cache
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.csproj.CoreCompileInputs.cache
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.exe
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.pdb
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\bin\Debug\Lab2dll.dll
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\bin\Debug\Lab2dll.pdb
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\MVVM Test.csproj.CopyComplete
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\Form.g.cs
+C:\Users\Bowlof\Desktop\Lab2\MVVM Test\obj\Debug\Form.baml

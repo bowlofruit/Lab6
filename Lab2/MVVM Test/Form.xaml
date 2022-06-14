@@ -1,0 +1,23 @@
+﻿<Window x:Class="MVVM_Test.Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM_Test"
+        mc:Ignorable="d"
+        Title="Form" Height="400" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="355*"/>
+            <RowDefinition Height="29*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" DataContext="{Binding SelectedExcursion}">
+            <TextBlock Text="Організатор" />
+            <TextBox Text="{Binding Orginizer, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Місце" />
+            <TextBox Text="{Binding Place, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Тип екскурсії" />
+            <ComboBox Width="120" HorizontalAlignment="Left" ItemsSource="{Binding FormConductor}"/>
+        </StackPanel>
+    </Grid>
+</Window>
