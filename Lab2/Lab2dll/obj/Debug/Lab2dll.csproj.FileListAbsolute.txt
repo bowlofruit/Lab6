@@ -16,3 +16,12 @@ C:\Users\Bowlof\Desktop\Lab2\Lab2dll\obj\Debug\Lab2dll.csproj.CoreCompileInputs.
 C:\Users\Bowlof\Desktop\Lab2\Lab2dll\obj\Debug\Lab2dll.csproj.CopyComplete
 C:\Users\Bowlof\Desktop\Lab2\Lab2dll\obj\Debug\Lab2dll.dll
 C:\Users\Bowlof\Desktop\Lab2\Lab2dll\obj\Debug\Lab2dll.pdb
+C:\Documents\Lab6\Lab2\Lab2dll\bin\Debug\Lab2dll.dll
+C:\Documents\Lab6\Lab2\Lab2dll\bin\Debug\Lab2dll.pdb
+C:\Documents\Lab6\Lab2\Lab2dll\bin\Debug\Newtonsoft.Json.dll
+C:\Documents\Lab6\Lab2\Lab2dll\bin\Debug\Newtonsoft.Json.xml
+C:\Documents\Lab6\Lab2\Lab2dll\obj\Debug\Lab2dll.csproj.AssemblyReference.cache
+C:\Documents\Lab6\Lab2\Lab2dll\obj\Debug\Lab2dll.csproj.CoreCompileInputs.cache
+C:\Documents\Lab6\Lab2\Lab2dll\obj\Debug\Lab2dll.csproj.CopyComplete
+C:\Documents\Lab6\Lab2\Lab2dll\obj\Debug\Lab2dll.dll
+C:\Documents\Lab6\Lab2\Lab2dll\obj\Debug\Lab2dll.pdb

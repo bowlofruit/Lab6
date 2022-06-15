@@ -1,20 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 
 namespace Lab2dll
 {
-    public class Tour : ICloneable, IComparable<Tour>
+    [DataContract]
+    public class Tour : ICloneable, IComparable<Tour>, INotifyPropertyChanged
     {
+        [DataMember]
+        private DateTime _date;
+        [DataMember]
+        private int _cost;
+        [DataMember]
+        private List<Excursion> _excursions;
+
         public Tour(int cost, DateTime date, List<Excursion> excursions)
         {
             Cost = cost;
             Date = date;
             Excursions = excursions;
         }
-        public DateTime Date { get; private set; }
-        public int Cost { get; private set; }
-        public List<Excursion> Excursions { get; private set; }
+
+        public DateTime Date
+        {
+            get { return _date; }
+            set
+            {
+                _date = value;
+                OnPropertyChanged("Date");
+            }
+        }
+        public int Cost
+        {
+            get { return _cost; }
+            set
+            {
+                _cost = value;
+                OnPropertyChanged("Cost");
+            }
+        }
+        public List<Excursion> Excursions
+        {
+            get { return _excursions; }
+            set
+            {
+                _excursions = value;
+                OnPropertyChanged("Excursions");
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string prop = "")
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(prop));
+        }
 
         public void AddExcursions(Excursion excursion)
         {

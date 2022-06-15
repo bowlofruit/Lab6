@@ -1,11 +1,9 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Collections.ObjectModel;
+﻿using Lab2dll;
 using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
-using Lab2dll;
-using System.Windows;
-using System.Windows.Controls;
+using System.Runtime.CompilerServices;
 
 namespace MVVM_Test
 {
@@ -13,8 +11,6 @@ namespace MVVM_Test
     {
         Tour selectedTour;
         Excursion selectedExcursion;
-
-        bool changes = false;
 
         IFileService fileService;
         IDialogService dialogService;
@@ -100,11 +96,11 @@ namespace MVVM_Test
                             Tours.Remove(tour);
                         }
                     },
-                    (obj) => Tours.Count > 0 || selectedTour != null));
+                    (obj) => Tours.Count > 0 && selectedTour != null));
             }
         }
 
-        private RelayCommand closeCommand;
+        /*private RelayCommand closeCommand;
         public RelayCommand CloseCommand
         {
             get
@@ -120,7 +116,7 @@ namespace MVVM_Test
                         }
                     }));
             }
-        }
+        }*/
 
         private RelayCommand listElement;
         public RelayCommand ListElement
@@ -138,7 +134,7 @@ namespace MVVM_Test
                             selectedExcursion = excursion;
                         }
                     },
-                    (obj) => Tours.Count > 0 && selectedTour != null));
+                    (obj) => selectedExcursion != null));
             }
         }
 

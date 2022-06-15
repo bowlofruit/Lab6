@@ -32,9 +32,9 @@
         </Grid.RowDefinitions>
 
         <Menu Grid.ColumnSpan="2" >
-            <MenuItem Header="Файл">
-                <MenuItem Header="Открыть" Command="{Binding OpenCommand}" />
-                <MenuItem Header="Сохранить" Command="{Binding SaveCommand}" />
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Command="{Binding OpenCommand}" />
+                <MenuItem Header="Save" Command="{Binding SaveCommand}" />
             </MenuItem>
         </Menu>
         <ListBox Grid.Row="1" ItemsSource="{Binding Tours}"
@@ -53,15 +53,17 @@
             <Button Command="{Binding AddCommand}">+</Button>
             <Button Command="{Binding RemoveCommand}"
                     CommandParameter="{Binding SelectedTour}">-</Button>
+            <Button Command="{Binding ListElement}"
+                    CommandParameter="{Binding SelectedExcursion}" Width="52">Change</Button>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="1" DataContext="{Binding SelectedTour}">
-            <TextBlock Text="Дата" />
+            <TextBlock Text="Date" />
             <TextBox Text="{Binding Date, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBlock Text="Вартість" />
+            <TextBlock Text="Cost" />
             <TextBox Text="{Binding Cost, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBlock Text="Список екскурсій" />
-            <ListBox ItemsSource="{Binding Path=Excursions}" SelectedValue="{Binding Path=ListElement}"/>
+            <TextBlock Text="Tour list" />
+            <ListBox ItemsSource="{Binding Path=Excursions}" SelectedItem="{Binding Path=ListElement}"/>
         </StackPanel>
     </Grid>
 </Window>

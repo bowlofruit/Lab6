@@ -24,3 +24,16 @@ C:\Users\Bowlof\Desktop\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
 C:\Users\Bowlof\Desktop\Lab2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
 C:\Users\Bowlof\Desktop\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\Users\Bowlof\Desktop\Lab2\Lab2\obj\Debug\Lab2.pdb
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Lab2dll.dll
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Newtonsoft.Json.dll
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Lab2dll.pdb
+C:\Documents\Lab6\Lab2\Lab2\bin\Debug\Newtonsoft.Json.xml
+C:\Documents\Lab6\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\Documents\Lab6\Lab2\Lab2\obj\Debug\Lab2.csproj.SuggestedBindingRedirects.cache
+C:\Documents\Lab6\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Documents\Lab6\Lab2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Documents\Lab6\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Documents\Lab6\Lab2\Lab2\obj\Debug\Lab2.pdb
